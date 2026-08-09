@@ -38,7 +38,7 @@ It combines appointment booking, patient management, subscription plans, and an 
 | Email Service     | Resend                      |
 | State Management  | TanStack Query              |
 | Forms             | React Hook Form + Zod       |
-| Linting           | Biome                       |
+
 
 ---
 
