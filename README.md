@@ -1,51 +1,51 @@
-<h1 align="center">🦷 Dentwise – Dental Platform with AI Voice Agent 🦷</h1>
+# 🦷 DentaOS – AI-Powered Dental Clinic Platform
 
-![Demo App](/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🏠 Modern Landing Page with gradients & images
-- 🔐 Authentication via Clerk (Google, GitHub, Email & Password)
-- 🔑 Email Verification (6-digit code)
-- 📅 Appointment Booking System
-- 🦷 3-Step Booking Flow (Dentist → Service & Time → Confirm)
-- 📩 Email Notifications for Bookings (Resend)
-- 📊 Admin Dashboard for Managing Appointments
-- 🗣️ AI Voice Agent powered by Vapi (Pro Plans only)
-- 💳 Subscription Payments with Clerk (Free + 2 Paid Plans)
-- 🧾 Automatic Invoices via Email
-- 💸 Smart Subscription Upgrades (pay only the difference)
-- 📂 PostgreSQL for Data Persistence
-- 🎨 Styling with Tailwind CSS + Shadcn
-- ⚡ Data Fetching with TanStack Query
-- 🤖 CodeRabbit for PR Optimizations
-- 🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
-- 🚀 Deployment on Sevalla (free-tier friendly)
+**DentaOS** is a modern full-stack dental clinic management platform built with Next.js.  
+It combines appointment booking, patient management, subscription plans, and an AI Voice Agent to create a complete digital experience for dental clinics.
 
 ---
 
-## 🧪 .env Setup
+## ✨ Features
+
+- 🏠 Beautiful modern landing page with smooth animations
+- 🔐 Authentication powered by **Clerk** (Google, GitHub, Email + Password)
+- 🔑 Email verification with 6-digit OTP
+- 📅 Smart 3-step Appointment Booking Flow  
+  (Select Dentist → Choose Service & Time → Confirm)
+- 📩 Automatic email notifications via **Resend**
+- 📊 Admin Dashboard to manage appointments & doctors
+- 🗣️ **AI Voice Agent** powered by **Vapi** (available on Pro plans)
+- 💳 Subscription system with Free + 2 Paid plans (via Clerk Billing)
+- 🧾 Automatic invoices on successful payments
+- 💸 Smart upgrade system (pay only the difference)
+- 🗄️ PostgreSQL database with **Prisma ORM**
+- 🎨 Modern UI with Tailwind CSS + Shadcn UI
+- ⚡ Fast data fetching with TanStack Query
+- 📱 Fully responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+| Category          | Technology                  |
+|-------------------|-----------------------------|
+| Framework         | Next.js 15 (App Router)     |
+| Language          | TypeScript                  |
+| Styling           | Tailwind CSS + Shadcn UI    |
+| Authentication    | Clerk                       |
+| Database          | PostgreSQL + Prisma         |
+| AI Voice Agent    | Vapi                        |
+| Email Service     | Resend                      |
+| State Management  | TanStack Query              |
+| Forms             | React Hook Form + Zod       |
+| Linting           | Biome                       |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-
-DATABASE_URL=your_postgres_database_url
-
-NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id
-NEXT_PUBLIC_VAPI_API_KEY=your_vapi_api_key
-
-ADMIN_EMAIL=your_admin_email
-
-RESEND_API_KEY=your_resend_api_key
-
-NEXT_PUBLIC_APP_URL=your_app_url
-
-```
-
-## Run the app
-
-```bash
-1- npm install
-2- npm run dev
-```
+git clone https://github.com/ayushsangamm/DentaOS.git
+cd DentaOS
